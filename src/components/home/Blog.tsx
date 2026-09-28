@@ -1,11 +1,10 @@
-import { Star } from "lucide-react";
 import blog1 from "../../../public/home/blog/blog1.png";
 import blog2 from "../../../public/home/blog/blog2.png";
 import blog3 from "../../../public/home/blog/blog3.png";
 import blog4 from "../../../public/home/blog/blog4.png";
 import blog5 from "../../../public/home/blog/blog5.png";
 import blog6 from "../../../public/home/blog/blog6.png";
-import { ChartIcon, StartIcon } from "../../icons/Icon";
+import { ChartIcon } from "../../icons/Icon";
 import { IoStar } from "react-icons/io5";
 
 const blogData = [

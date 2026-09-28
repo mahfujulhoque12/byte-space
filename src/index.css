@@ -31,6 +31,12 @@ body {
 .para-3 {
   @apply text-[#82868E] text-lg font-normal;
 }
+.para-4 {
+  @apply text-[#4F4F4F] text-lg font-normal;
+}
+.para-5 {
+  @apply text-[#4B4C53] text-lg font-normal;
+}
 
 .heading-1 {
   @apply font-poppins text-3xl sm:text-5xl md:text-6xl lg:text-[72px] font-semibold max-w-4xl leading-[120%] text-center p-0 m-0;
@@ -43,6 +49,9 @@ body {
 }
 .heading-4 {
   @apply text-3xl md:text-4xl font-semibold text-center text-navy;
+}
+.heading-5 {
+  @apply text-3xl sm:text-4xl font-medium text-blue leading-none font-poppins;
 }
 .btn-1 {
   @apply w-full sm:w-auto rounded-full bg-lime px-6 lg:text-lg py-3 text-base font-medium text-black   cursor-pointer hover:bg-white transition-all duration-300;
