@@ -50,7 +50,7 @@ const Growth = () => {
         }}
       />
 
-      <div className="wrapper relative z-10 pt-[120px] grid grid-cols-1 sm:grid-cols-2 gap-10">
+      <div className="wrapper relative z-10 pt-10 md:pt-[120px] grid grid-cols-1 lg:grid-cols-2 gap-10">
         {/* left part start  */}
         <div className="mt-12">
           <h1 className="heading-2 text-black!">
@@ -87,10 +87,14 @@ const Growth = () => {
           <img src={growth1} alt="growth 1" className="" />
 
           {/* boy img */}
-          <img src={boy} alt="boy" className="absolute -right-[9%] top-[20%]" />
+          <img
+            src={boy}
+            alt="boy"
+            className="hidden lg:block lg:absolute lg:-right-[9%] lg:top-[20%]"
+          />
 
           {/* Floating Badge 2: Learning Progress (Top Right) */}
-          <div className="absolute top-[52%] right-[0%] bg-white rounded-2xl p-3 sm:p-4 shadow-lg z-20 text-gray-900 min-w-[130px] sm:min-w-[232px]">
+          <div className="mt-5 lg:mt-0 lg:absolute lg:top-[52%] lg:right-[0%] bg-white rounded-2xl p-3 sm:p-4 shadow-lg z-20 text-gray-900 min-w-[130px] sm:min-w-[232px]">
             <p className="text-black font-medium text-sm text-start">
               Learning Progress
             </p>
@@ -105,13 +109,13 @@ const Growth = () => {
           <img
             src={right1}
             alt="right 1"
-            className="absolute top-[30%] -right-[5%] z-50"
+            className="hidden md:block absolute top-[30%] -right-[5%] z-50"
           />
         </div>
         {/* right part end  */}
       </div>
       {/* girl part start  */}
-      <div className="wrapper relative py-[120px]  grid grid-cols-1 sm:grid-cols-2 gap-10">
+      <div className="wrapper relative py-10 md:py-[120px]  grid grid-cols-1 sm:grid-cols-2 gap-10">
         {/* gradient 3 */}
         <div
           className="
@@ -177,7 +181,7 @@ const Growth = () => {
           </div>
           {/* 1st card end */}
           {/* 2nd card start */}
-          <div className=" bg-blue mt-8 rounded-2xl p-3 sm:p-4    w-auto inline-block">
+          <div className=" bg-blue mt-8 rounded-2xl p-3 sm:p-4    w-full md:w-auto inline-block">
             <p className="text-white font-medium text-base text-start">
               Year to Date
             </p>
@@ -191,18 +195,22 @@ const Growth = () => {
           </div>
           {/* 2nd card end */}
 
-          <img src={girl} alt="girl" className="absolute right-0 -top-[6%]" />
+          <img
+            src={girl}
+            alt="girl"
+            className="hidden md:block absolute right-0 -top-[6%]"
+          />
           <img
             src={girlFrame}
             alt="girl-frame"
-            className="absolute  right-[12%] top-[10%]"
+            className="hidden md:block absolute  right-[12%] top-[10%]"
           />
 
           {/* Floating Badge 3: Happy Students (Bottom Left) */}
-          <div className="absolute bottom-[20%] right-[18%] bg-white rounded-2xl p-3 sm:p-4 shadow-lg z-20 text-gray-900 min-w-[160px] sm:min-w-[200px]">
+          <div className="mt-5 md:mt-0 md:absolute md:bottom-[20%] md:right-[18%] bg-white rounded-2xl p-3 sm:p-4 shadow-lg z-20 text-gray-900 min-w-[160px] sm:min-w-[200px]">
             <div className="flex flex-col mb-2">
-              <h4 className="para-2 text-start">Happy Students</h4>
-              <p className="text-[10px] sm:text-xs font-normal text-[#82868E] flex items-center gap-1">
+              <h4 className="para-2 md:text-start">Happy Students</h4>
+              <p className="text-[10px] sm:text-xs font-normal text-[#82868E] flex justify-center md:justify-start items-center gap-1">
                 4.5(240){" "}
                 <span className="text-lime">
                   <StartIcon />
@@ -211,7 +219,7 @@ const Growth = () => {
             </div>
 
             {/* Avatars */}
-            <div className="flex items-center -space-x-2">
+            <div className="flex items-center justify-center md:justify-start -space-x-2">
               <img
                 className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white object-cover"
                 src="https://i.pravatar.cc/100?img=1"
@@ -224,14 +232,25 @@ const Growth = () => {
               />
               <img
                 className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white object-cover"
-                src="https://i.pravatar.cc/100?img=3"
+                src="https://i.pravatar.cc/100?img=4"
                 alt="user"
               />
               <img
                 className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white object-cover"
-                src="https://i.pravatar.cc/100?img=4"
+                src="https://i.pravatar.cc/100?img=1"
                 alt="user"
               />
+              <img
+                className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white object-cover"
+                src="https://i.pravatar.cc/100?img=1"
+                alt="user"
+              />
+              <img
+                className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white object-cover"
+                src="https://i.pravatar.cc/100?img=3"
+                alt="user"
+              />
+
               <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white bg-lime text-[10px] sm:text-xs font-bold flex items-center justify-center text-gray-900">
                 2K+
               </div>
@@ -242,7 +261,7 @@ const Growth = () => {
 
         {/* right part start  */}
         <div>
-          <h1 className="heading-2 mt-[176px] text-black!">
+          <h1 className="heading-2 md:mt-[176px] text-black!">
             Create & Manage Courses Easily.
           </h1>
           <p className="mt-10 para-6">

@@ -33,7 +33,7 @@ const Hero = () => {
       <img
         src={left2}
         alt="left fram"
-        className="absolute hidden md:block left-[10%] top-[54%]"
+        className="absolute hidden z-0 md:block left-[10%] top-[54%]"
       />
       <img
         src={left3}
@@ -91,7 +91,7 @@ const Hero = () => {
 
         {/* Main Boy Image Container */}
 
-        <div className=" z-10 flex justify-center items-end mt-6">
+        <div className=" z-10 flex flex-col md:flex-none justify-center md:items-end mt-6 mb-6">
           {/* Background Shape Image */}
           <img
             src={roundShape}
@@ -109,19 +109,32 @@ const Hero = () => {
           />
 
           {/* Floating Badge 1: UI/UX Design (Top Left) */}
-          <div className="absolute  top-[60%] left-1/5 bg-white rounded-2xl p-3 sm:p-4 shadow-lg z-20 text-gray-900 min-w-[140px] sm:min-w-[180px]">
-            <h4 className="para-2 text-start">UI/UX Design</h4>
-            <p className="text-[10px] sm:text-xs text-[#82868E] mt-0.5">
-              200 Courses &bull; 1000+ Students
-            </p>
+          <div
+            className="
+    flex justify-center
+    md:absolute md:top-[60%] md:left-1/5
+    bg-white rounded-2xl
+    p-3 sm:p-4
+    shadow-lg z-20
+    text-gray-900
+    min-w-[140px] sm:min-w-[180px]
+  "
+          >
+            <div>
+              <h4 className="para-2 text-start">UI/UX Design</h4>
+
+              <p className="text-[10px] sm:text-xs text-[#82868E] mt-0.5">
+                200 Courses &bull; 1000+ Students
+              </p>
+            </div>
           </div>
 
           {/* Floating Badge 2: Learning Progress (Top Right) */}
-          <div className="absolute top-[60%] right-[25%] bg-white rounded-2xl p-3 sm:p-4 shadow-lg z-20 text-gray-900 min-w-[130px] sm:min-w-[232px]">
-            <p className="text-black font-medium text-sm text-start">
+          <div className=" mt-5 md:mt-0 flex flex-col justify-center md:absolute md:top-[60%] md:right-[25%] bg-white rounded-2xl p-3 sm:p-4 shadow-lg z-20 text-gray-900 min-w-[130px] sm:min-w-[232px]">
+            <p className="text-black font-medium text-sm md:text-start">
               Learning Progress
             </p>
-            <h3 className="text-start text-[48px] font-semibold mt-0.5 leading-[120%]">
+            <h3 className="md:text-start text-[48px] font-semibold mt-0.5 leading-[120%]">
               55%
             </h3>
             <div className="w-full bg-gray-100 rounded-full h-1.5 mt-2">
@@ -130,11 +143,11 @@ const Hero = () => {
           </div>
 
           {/* Floating Badge 3: Happy Students (Bottom Left) */}
-          <div className="absolute bottom-[6%] left-[18%] bg-white rounded-2xl p-3 sm:p-4 shadow-lg z-20 text-gray-900 min-w-[160px] sm:min-w-[200px]">
+          <div className="mt-5 md:mt-0 flex flex-col justify-center md:absolute md:bottom-[6%] md:left-[18%] bg-white rounded-2xl p-3 sm:p-4 shadow-lg z-40 text-gray-900 min-w-[160px] sm:min-w-[200px]">
             <div className="flex flex-col mb-2">
-              <h4 className="para-2 text-start">Happy Students</h4>
-              <p className="text-[10px] sm:text-xs font-normal text-[#82868E] flex items-center gap-1">
-                4.5(240){" "}
+              <h4 className="para-2 md:text-start">Happy Students</h4>
+              <p className="text-[10px] sm:text-xs font-normal text-[#82868E] flex justify-self-auto md:justify-start justify-center  items-center gap-1">
+                4.5(240)
                 <span className="text-lime">
                   <StartIcon />
                 </span>
@@ -142,7 +155,7 @@ const Hero = () => {
             </div>
 
             {/* Avatars */}
-            <div className="flex items-center -space-x-2">
+            <div className="flex items-center justify-center md:justify-start -space-x-2">
               <img
                 className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white object-cover"
                 src="https://i.pravatar.cc/100?img=1"
@@ -155,14 +168,25 @@ const Hero = () => {
               />
               <img
                 className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white object-cover"
-                src="https://i.pravatar.cc/100?img=3"
+                src="https://i.pravatar.cc/100?img=4"
                 alt="user"
               />
               <img
                 className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white object-cover"
-                src="https://i.pravatar.cc/100?img=4"
+                src="https://i.pravatar.cc/100?img=1"
                 alt="user"
               />
+              <img
+                className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white object-cover"
+                src="https://i.pravatar.cc/100?img=1"
+                alt="user"
+              />
+              <img
+                className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white object-cover"
+                src="https://i.pravatar.cc/100?img=3"
+                alt="user"
+              />
+
               <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white bg-lime text-[10px] sm:text-xs font-bold flex items-center justify-center text-gray-900">
                 2K+
               </div>
