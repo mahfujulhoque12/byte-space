@@ -133,7 +133,7 @@ const Hero = () => {
           <div className="absolute bottom-[6%] left-[18%] bg-white rounded-2xl p-3 sm:p-4 shadow-lg z-20 text-gray-900 min-w-[160px] sm:min-w-[200px]">
             <div className="flex flex-col mb-2">
               <h4 className="para-2 text-start">Happy Students</h4>
-              <p className="text-[10px] sm:text-xs font-normal text-[#D1D1D1] flex items-center gap-1">
+              <p className="text-[10px] sm:text-xs font-normal text-[#82868E] flex items-center gap-1">
                 4.5(240){" "}
                 <span className="text-lime">
                   <StartIcon />
