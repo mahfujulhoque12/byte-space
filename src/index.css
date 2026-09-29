@@ -8,6 +8,7 @@
   --color-black: #242528;
   --color-navy: #040819;
   --color-blue: #003be2;
+  --color-white-main: #ffffff;
   --font-satoshi: "Satoshi", sans-serif;
   --font-poppins: "Poppins", sans-serif;
 }
@@ -48,7 +49,7 @@ body {
   @apply text-2xl sm:text-4xl md:text-[44px] font-poppins font-semibold leading-[120%] text-navy;
 }
 .heading-3 {
-  @apply text-black font-semibold text-xl;
+  @apply text-black font-semibold font-poppins text-xl;
 }
 .heading-4 {
   @apply text-3xl md:text-4xl font-semibold text-center text-navy;

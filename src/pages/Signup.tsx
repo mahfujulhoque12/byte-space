@@ -1,8 +1,8 @@
 import logosm from "../../public/favicon.svg";
-import SignInLeft from "../components/signin/SignInLeft";
-import SigninRight from "../components/signin/SigninRight";
+import SignupLeft from "../components/signup/SignupLeft";
+import SignupRight from "../components/signup/SignupRight";
 
-const Signin = () => {
+const Signup = () => {
   return (
     <div
       className="bg-brand relative w-full"
@@ -20,12 +20,12 @@ const Signin = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-35 pb-20 md:pb-30">
           {/* left part start  */}
           <div>
-            <SignInLeft />
+            <SignupLeft />
           </div>
           {/* left part end  */}
           {/* left right start  */}
           <div>
-            <SigninRight />
+            <SignupRight />
           </div>
           {/* left right end  */}
         </div>
@@ -34,4 +34,4 @@ const Signin = () => {
   );
 };
 
-export default Signin;
+export default Signup;
