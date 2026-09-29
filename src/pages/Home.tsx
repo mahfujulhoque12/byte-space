@@ -1,4 +1,5 @@
 import Brand from "../components/home/Brand";
+import Creator from "../components/home/Creator";
 import Deverse from "../components/home/Deverse";
 import Discover from "../components/home/Discover";
 import Growth from "../components/home/Growth";
@@ -12,6 +13,7 @@ const Home = () => {
       <Discover />
       <Deverse />
       <Growth />
+      <Creator />
     </div>
   );
 };
