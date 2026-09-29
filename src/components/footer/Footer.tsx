@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import logo from "../../../public/logo-footer.svg";
 
 const Footer = () => {
@@ -45,87 +46,87 @@ const Footer = () => {
           {/* Column 1 */}
           <div className="space-y-4 text-sm text-[#242528]">
             <p>
-              <a href="#" className="hover:text-blue transition-colors">
+              <Link to="#" className="hover:text-blue transition-colors">
                 Featured Courses
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="#" className="hover:text-blue transition-colors">
+              <Link to="#" className="hover:text-blue transition-colors">
                 Featured Categories
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="#" className="hover:text-blue transition-colors">
+              <Link to="#" className="hover:text-blue transition-colors">
                 Business
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="#" className="hover:text-blue transition-colors">
+              <Link to="#" className="hover:text-blue transition-colors">
                 IT
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="#" className="hover:text-blue transition-colors">
+              <Link to="#" className="hover:text-blue transition-colors">
                 Design
-              </a>
+              </Link>
             </p>
           </div>
 
           {/* Column 2 */}
           <div className="space-y-4 text-sm">
             <p>
-              <a href="#" className="hover:text-blue transition-colors">
+              <Link to="#" className="hover:text-blue transition-colors">
                 Development
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="#" className="hover:text-blue transition-colors">
+              <Link to="#" className="hover:text-blue transition-colors">
                 Marketing
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="#" className="hover:text-blue transition-colors">
+              <Link to="#" className="hover:text-blue transition-colors">
                 Photography
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="#" className="hover:text-blue transition-colors">
+              <Link to="#" className="hover:text-blue transition-colors">
                 Finance
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="#" className="hover:text-blue transition-colors">
+              <Link to="#" className="hover:text-blue transition-colors">
                 Sport
-              </a>
+              </Link>
             </p>
           </div>
 
           {/* Column 3 */}
           <div className="space-y-4 text-sm">
             <p>
-              <a href="#" className="hover:text-blue transition-colors">
+              <Link to="#" className="hover:text-blue transition-colors">
                 Become a Creator
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="#" className="hover:text-blue transition-colors">
+              <Link to="#" className="hover:text-blue transition-colors">
                 Affiliate Program
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="#" className="hover:text-blue transition-colors">
+              <Link to="#" className="hover:text-blue transition-colors">
                 Contact
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="#" className="hover:text-blue transition-colors">
+              <Link to="#" className="hover:text-blue transition-colors">
                 Help
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="#" className="hover:text-blue transition-colors">
+              <Link to="#" className="hover:text-blue transition-colors">
                 About
-              </a>
+              </Link>
             </p>
           </div>
         </div>
@@ -139,15 +140,15 @@ const Footer = () => {
         <p>@ 2023 ByteSpace. All rights reserved.</p>
 
         <div className="flex gap-6">
-          <a href="#" className="hover:text-blue transition-colors">
+          <Link to="#" className="hover:text-blue transition-colors">
             Privacy Policy
-          </a>
-          <a href="#" className="hover:text-blue transition-colors">
+          </Link>
+          <Link to="#" className="hover:text-blue transition-colors">
             Terms of Service
-          </a>
-          <a href="#" className="hover:text-blue transition-colors">
+          </Link>
+          <Link to="#" className="hover:text-blue transition-colors">
             Cookies Settings
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
