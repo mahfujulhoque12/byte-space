@@ -56,6 +56,9 @@ body {
 .heading-5 {
   @apply text-3xl sm:text-4xl font-medium text-blue leading-none font-poppins;
 }
+.heading-6 {
+  @apply text-xl font-semibold text-[#000000] font-poppins;
+}
 .btn-1 {
   @apply w-full sm:w-auto rounded-full bg-lime px-6 lg:text-lg py-3 text-base font-medium text-black   cursor-pointer hover:bg-white transition-all duration-300;
 }
