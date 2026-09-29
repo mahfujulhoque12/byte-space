@@ -85,3 +85,38 @@ export const blogData = [
     price: "$25",
   },
 ];
+
+import img1 from "../../public/home/testimonials/img1.png";
+import img2 from "../../public/home/testimonials/img2.png";
+import img3 from "../../public/home/testimonials/img3.png";
+
+interface Testimonial {
+  name: string;
+  role: string;
+  avatar: string;
+  quote: string;
+}
+
+export const testimonials: Testimonial[] = [
+  {
+    name: "Sarah M.",
+    role: "Enthusiastic Learner",
+    avatar: img1,
+    quote:
+      '"ByteSpace has transformed my approach to learning. The diverse range of courses and the quality of content provided by creators have exceeded my expectations. The platform truly fosters a sense of community and lifelong learning."',
+  },
+  {
+    name: "James L.",
+    role: "Lifelong Learner",
+    avatar: img2,
+    quote:
+      '"I\'ve tried several online learning platforms, and ByteSpace stands out for its vibrant community and the variety of courses available. The easy navigation and engaging content make it a go-to platform for continuous skill development."',
+  },
+  {
+    name: "Alex B.",
+    role: "Inspired Creator",
+    avatar: img3,
+    quote:
+      '"As a creator, ByteSpace has been a game-changer for me. The Course Editor is user-friendly, and the support from the community is incredible. It\'s fulfilling to see my courses making a positive impact on learners globally."',
+  },
+];
