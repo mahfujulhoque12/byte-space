@@ -21,7 +21,16 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <div className=" relative">
+    <div
+      className="bg-brand relative"
+      style={{
+        backgroundImage: `
+          linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+          linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px)
+        `,
+        backgroundSize: "80px 80px",
+      }}
+    >
       <div className="wrapper flex items-center justify-between py-4 text-white">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2" onClick={closeMenu}>
@@ -85,6 +94,13 @@ const Navbar: React.FC = () => {
             ? "max-h-[400px] py-6 opacity-100"
             : "max-h-0 py-0 opacity-0 border-t-0"
         }`}
+        style={{
+          backgroundImage: `
+          linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+          linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px)
+        `,
+          backgroundSize: "80px 80px",
+        }}
       >
         <NavLink to="/" className={navLinkClass} onClick={closeMenu}>
           Home

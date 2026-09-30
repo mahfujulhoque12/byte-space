@@ -10,7 +10,13 @@ const Footer = () => {
         <div className="max-w-lg">
           {/* Logo */}
           <div className="flex items-center gap-2 mb-6">
-            <img src={logo} alt="ByteSpace Logo" className="h-auto w-[134px]" />
+            <Link to={"/"}>
+              <img
+                src={logo}
+                alt="ByteSpace Logo"
+                className="h-auto w-[134px]"
+              />
+            </Link>
           </div>
 
           {/* Description */}

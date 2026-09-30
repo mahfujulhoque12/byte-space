@@ -35,7 +35,7 @@ const SignInLeft = () => {
         />
         {/* back cart start  */}
         <div className="pt-25 w-full z-20">
-          <div className=" rounded-3xl bg-[#fff] p-4 border border-[#CED0D3] max-w-[373px] shadow-sm hover:shadow-md transition-shadow duration-200">
+          <div className=" rounded-3xl bg-white-main p-4 border border-[#CED0D3] max-w-[373px] shadow-sm hover:shadow-md transition-shadow duration-200">
             {/* Image & Overlay Meta Header */}
             <div className="relative rounded-xl overflow-hidden  mb-4">
               <img src={img2} alt="Image one" className="w-full h-full " />
@@ -112,7 +112,7 @@ const SignInLeft = () => {
 
         {/* top cart start */}
         <div className="mt-5 sm:mt-0 sm:absolute z-50 w-full flex justify-end sm:right-10 sm:top-0">
-          <div className=" rounded-3xl bg-[#fff] p-4 border border-[#CED0D3] max-w-[373px] shadow-sm hover:shadow-md transition-shadow duration-200">
+          <div className=" rounded-3xl bg-white-main p-4 border border-[#CED0D3] max-w-[373px] shadow-sm hover:shadow-md transition-shadow duration-200">
             {/* Image & Overlay Meta Header */}
             <div className="relative rounded-xl overflow-hidden  mb-5">
               <img src={img1} alt="Image one" className="w-full h-full " />

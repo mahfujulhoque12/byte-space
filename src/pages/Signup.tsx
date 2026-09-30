@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import logosm from "../../public/favicon.svg";
 import SignupLeft from "../components/signup/SignupLeft";
 import SignupRight from "../components/signup/SignupRight";
@@ -15,9 +16,11 @@ const Signup = () => {
       }}
     >
       <div className="wrapper">
-        <img src={logosm} alt="logo" className="py-9" />
+        <Link to={"/"}>
+          <img src={logosm} alt="logo" className="py-9" />
+        </Link>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-35 pb-20 md:pb-30">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 xl:gap-35 pb-20 md:pb-30">
           {/* left part start  */}
           <div>
             <SignupLeft />
