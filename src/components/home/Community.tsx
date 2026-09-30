@@ -73,7 +73,7 @@ const Community = () => {
           {testimonials.map((item, index) => (
             <div
               key={index}
-              className="bg-[#fff] rounded-3xl p-8  border border-gray-200 transition-shadow flex flex-col justify-between z-20"
+              className="bg-white-main rounded-3xl p-8  border border-gray-200 transition-shadow flex flex-col justify-between z-20"
             >
               <div>
                 {/* Avatar */}

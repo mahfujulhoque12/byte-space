@@ -1,5 +1,4 @@
 import { Search } from "lucide-react";
-import Navbar from "../navbar/Navbar";
 import leftfbig from "../../../public/home/left-f-big.svg";
 import boyImg from "../../../public/home/boy.svg";
 import roundShape from "../../../public/home/round-shape.svg";
@@ -60,7 +59,6 @@ const Hero = () => {
 
       {/* right part imgs end */}
 
-      <Navbar />
       <div className="wrapper relative z-10 flex flex-col items-center justify-center text-center text-white pt-20">
         <h1 className="heading-1">Get Access to Hundreds Courses Available</h1>
         <p className=" para-1 mt-8">

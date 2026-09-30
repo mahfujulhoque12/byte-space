@@ -22,7 +22,7 @@ const SigninRight: React.FC = () => {
   };
 
   return (
-    <div className="bg-[#fff] p-8 md:p-12 rounded-[2rem] w-full ">
+    <div className="mt-15 lg:mt-0 bg-white-main p-8 md:p-15 rounded-3xl w-full ">
       {/* Header */}
       <div className="mb-8">
         <span className="text-blue font-normal text-lg">Sign In</span>
