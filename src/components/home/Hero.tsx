@@ -27,34 +27,34 @@ const Hero = () => {
       <img
         src={leftfbig}
         alt="left fram"
-        className="absolute hidden md:block left- top-1/4"
+        className="absolute hidden lg:block left- top-1/4"
       />
       <img
         src={left2}
         alt="left fram"
-        className="absolute hidden z-0 md:block left-[10%] top-[54%]"
+        className="absolute hidden z-0 lg:block left-[10%] top-[54%]"
       />
       <img
         src={left3}
         alt="left fram"
-        className="absolute hidden md:block left-0 top-[70%] z-20"
+        className="absolute hidden lg:block left-0 top-[70%] z-20"
       />
 
       {/* right part imgs  */}
       <img
         src={right1}
         alt="right 1"
-        className="absolute right-0 hidden md:block top-1/4"
+        className="absolute right-0 hidden lg:block top-1/4"
       />
       <img
         src={right2}
         alt="right-2"
-        className="absolute hidden md:block right-[10%] top-[50%]"
+        className="absolute hidden lg:block right-[10%] top-[50%]"
       />
       <img
         src={right3}
         alt="right-2"
-        className="absolute right-0 top-[68%] hidden md:block"
+        className="absolute right-0 top-[68%] hidden lg:block"
       />
 
       {/* right part imgs end */}
