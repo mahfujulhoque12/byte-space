@@ -94,7 +94,7 @@ const Growth = () => {
           />
 
           {/* Floating Badge 2: Learning Progress (Top Right) */}
-          <div className="mt-5 lg:mt-0 lg:absolute lg:top-[52%] lg:right-[0%] bg-white rounded-2xl p-3 sm:p-4 shadow-lg z-20 text-gray-900 min-w-[130px] sm:min-w-[232px]">
+          <div className="mt-5 max-w-[370px] lg:mt-0 lg:absolute lg:top-[52%] lg:right-[0%] bg-white rounded-2xl p-3 sm:p-4 shadow-lg z-20 text-gray-900 min-w-[130px] sm:min-w-[232px]">
             <p className="text-black font-medium text-sm text-start">
               Learning Progress
             </p>
@@ -109,7 +109,7 @@ const Growth = () => {
           <img
             src={right1}
             alt="right 1"
-            className="hidden md:block absolute top-[30%] -right-[5%] z-50"
+            className="hidden lg:block absolute top-[30%] -right-[5%] z-50"
           />
         </div>
         {/* right part end  */}
@@ -198,12 +198,12 @@ const Growth = () => {
           <img
             src={girl}
             alt="girl"
-            className="hidden md:block absolute right-0 -top-[6%]"
+            className="hidden lg:block absolute right-0 -top-[6%]"
           />
           <img
             src={girlFrame}
             alt="girl-frame"
-            className="hidden md:block absolute  right-[12%] top-[10%]"
+            className="hidden lg:block absolute  right-[12%] top-[10%]"
           />
 
           {/* Floating Badge 3: Happy Students (Bottom Left) */}

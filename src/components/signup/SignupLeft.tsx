@@ -34,7 +34,7 @@ const SignupLeft = () => {
           className="hidden lg:block absolute bottom-0 z-999 -right-4"
         />
         {/* back cart start  */}
-        <div className="pt-25 w-full z-20">
+        <div className="md:pt-25 w-full z-20">
           <div className=" rounded-3xl bg-white-main p-4 border border-[#CED0D3] max-w-[373px] shadow-sm hover:shadow-md transition-shadow duration-200">
             {/* Image & Overlay Meta Header */}
             <div className="relative rounded-xl overflow-hidden  mb-4">

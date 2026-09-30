@@ -22,22 +22,22 @@ const Creator = () => {
       <img
         src={left1}
         alt="left1"
-        className="hidden md:block absolute top-0 left-0"
+        className="hidden lg:block absolute z-0 top-0 left-0"
       />
       <img
         src={left2}
         alt="left1"
-        className="hidden md:block absolute top-4 left-[11%]"
+        className="hidden lg:block absolute z-0 top-4 left-[11%]"
       />
       <img
         src={left3}
         alt="left1"
-        className="hidden md:block absolute bottom-[15%] left-0"
+        className="hidden lg:block absolute z-0 bottom-[15%] left-0"
       />
       <img
         src={left4}
         alt="left1"
-        className="hidden md:block absolute bottom-0 left-9"
+        className="hidden lg:block absolute z-0 bottom-0 left-9"
       />
       {/* left part fream image end  */}
 
@@ -45,26 +45,26 @@ const Creator = () => {
       <img
         src={right1}
         alt="right-1"
-        className="hidden md:block absolute top-1 right-[12%]"
+        className="hidden lg:block absolute z-0 top-1 right-[12%]"
       />
       <img
         src={right2}
         alt="right-2"
-        className="hidden md:block absolute top-1 right-0"
+        className="hidden lg:block absolute z-0 top-1 right-0"
       />
       <img
         src={right3}
         alt="right-2"
-        className="hidden md:block absolute bottom-0 right-10"
+        className="hidden lg:block absolute z-0 bottom-0 right-10"
       />
       {/* right part img frame image end  */}
 
-      <div className="wrapper py-[85px]">
-        <h1 className="heading-2 text-white! max-w-[600px] mx-auto text-center">
+      <div className="wrapper py-[85px] relative z-10">
+        <h1 className="heading-2 text-white! z-50! max-w-[600px] mx-auto text-center">
           Unlock Your Potential as a Creator with ByteSpace
         </h1>
 
-        <p className="para-5 text-white! mt-10 max-w-[1000px] mx-auto text-center ">
+        <p className="para-5 text-white! z-50! mt-10 max-w-[1000px] mx-auto text-center ">
           Experience the collaboration of numerous creators and an expanding
           selection of courses. Register now and become a part of a community
           comprising over 10,000 local and international creators. Utilize our
