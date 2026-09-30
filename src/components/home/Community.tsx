@@ -1,6 +1,20 @@
+import useEmblaCarousel from "embla-carousel-react";
 import { testimonials } from "../../data/data";
+import Autoplay from "embla-carousel-autoplay";
 
 const Community = () => {
+  const [emblaRef] = useEmblaCarousel(
+    {
+      loop: true,
+      align: "start",
+    },
+    [
+      Autoplay({
+        delay: 2000,
+        stopOnInteraction: false,
+      }),
+    ],
+  );
   return (
     <div className="overflow-hidden relative">
       <div className="wrapper  py-[74px] ">
@@ -69,31 +83,35 @@ const Community = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-[72px]">
-          {testimonials.map((item, index) => (
-            <div
-              key={index}
-              className="bg-white-main rounded-3xl p-8  border border-gray-200 transition-shadow flex flex-col justify-between z-20"
-            >
-              <div>
-                {/* Avatar */}
-                <img
-                  src={item.avatar}
-                  alt={item.name}
-                  className="w-20 h-20 rounded-full object-cover mb-6 border border-gray-100"
-                />
+        <div className="overflow-hidden mt-[72px] rounded-3xl" ref={emblaRef}>
+          <div className="flex -ml-6 ">
+            {testimonials.map((item, index) => (
+              <div
+                key={index}
+                className="flex-[0_0_100%] min-w-0 sm:flex-[0_0_50%] lg:flex-[0_0_33.333%] pl-5 sm:pl-10 "
+              >
+                <div className="bg-white-main rounded-3xl p-8 border border-gray-200 transition-shadow flex flex-col justify-between z-20 h-full">
+                  <div>
+                    {/* Avatar */}
+                    <img
+                      src={item.avatar}
+                      alt={item.name}
+                      className="w-20 h-20 rounded-full object-cover mb-6 border border-gray-100"
+                    />
 
-                {/* Name & Role */}
-                <h3 className="heading-6 mb-0.5">{item.name}</h3>
-                <p className="text-blue font-normal text-lg mb-6">
-                  {item.role}
-                </p>
+                    {/* Name & Role */}
+                    <h3 className="heading-6 mb-0.5">{item.name}</h3>
+                    <p className="text-blue font-normal text-lg mb-6">
+                      {item.role}
+                    </p>
 
-                {/* Quote */}
-                <p className="para-4">{item.quote}</p>
+                    {/* Quote */}
+                    <p className="para-4">{item.quote}</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>
