@@ -61,25 +61,37 @@ This approach provides better control over the design and makes it easier to imp
 The project follows a reusable and modular React component structure.
 
 ```text
-src/
-├── assets/
-├── components/
-│   ├── common/
-│   ├── header/
-│   ├── footer/
-│   └── ...
-├── pages/
-│   ├── Home/
-│   ├── About/
-│   ├── Contact/
-│   └── ...
-├── routes/
-├── hooks/
-├── utils/
-├── types/
-├── App.tsx
-├── main.tsx
-└── index.css
+byte/
+├── dist/
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── footer/
+│   │   ├── home/
+│   │   ├── navbar/
+│   │   ├── resuable/
+│   │   ├── signin/
+│   │   └── signup/
+│   ├── data/
+│   ├── icons/
+│   ├── pages/
+│   ├── App.css
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+├── .gitignore
+├── .oxlintrc.json
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vercel.json
+└── vite.config.ts
 ```
 
 Components are organized based on their responsibilities to keep the project clean, scalable, and easy to maintain.
@@ -200,4 +212,4 @@ Full Stack Developer
 
 ## 📄 License
 
-This project is developed for Task
+This project is developed for Doin Tech Codeing Interview
