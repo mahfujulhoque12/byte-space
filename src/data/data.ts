@@ -119,4 +119,18 @@ export const testimonials: Testimonial[] = [
     quote:
       '"As a creator, ByteSpace has been a game-changer for me. The Course Editor is user-friendly, and the support from the community is incredible. It\'s fulfilling to see my courses making a positive impact on learners globally."',
   },
+  {
+    name: "Sarah M.",
+    role: "Enthusiastic Learner",
+    avatar: img1,
+    quote:
+      '"ByteSpace has transformed my approach to learning. The diverse range of courses and the quality of content provided by creators have exceeded my expectations. The platform truly fosters a sense of community and lifelong learning."',
+  },
+  {
+    name: "Alex B.",
+    role: "Inspired Creator",
+    avatar: img3,
+    quote:
+      '"As a creator, ByteSpace has been a game-changer for me. The Course Editor is user-friendly, and the support from the community is incredible. It\'s fulfilling to see my courses making a positive impact on learners globally."',
+  },
 ];
